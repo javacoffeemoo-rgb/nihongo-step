@@ -1,0 +1,14 @@
+# 실행 중 생기는 파일
+__pycache__/
+*.py[cod]
+*.log
+
+# 학습 진도는 개인 데이터라 저장소에 올리지 않습니다
+data/progress/*.json
+data/progress/*.tmp
+
+# 에디터/OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>일본어 회화봇 · 카톡 테스트</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="phone">
+    <header class="room-head">
+      <div class="head-left">‹</div>
+      <div class="head-title">
+        <span class="bot-badge">日</span> 일본어 회화봇
+      </div>
+      <div class="head-right">☰</div>
+    </header>
+
+    <div class="notice">실제 카카오톡 화면이 아니라, 스킬 서버 응답을 미리 보는 테스트 화면입니다.</div>
+
+    <main id="chat" class="chat"></main>
+
+    <div id="quickreplies" class="quick-replies"></div>
+
+    <footer class="input-bar">
+      <input id="input" type="text" placeholder="메시지를 입력하세요" autocomplete="off" />
+      <button id="send" class="send-btn">전송</button>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

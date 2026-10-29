@@ -1,0 +1,241 @@
+{
+  "title": "EBS 참고 일본어 회화 커리큘럼",
+  "description": "EBS의 일본어 교육 과정과 2015 개정 교육과정 생활일본어 성취기준을 참고해 재구성한 6단계 24과 커리큘럼",
+  "basis": [
+    "EBS 착!붙는 일본어 (왕초보, 문자·발음부터)",
+    "EBS 두리안 이중언어 일본어 초급 (글자와 발음 → 인사 → 자기소개 → 음식 → 놀이 → 나의 꿈)",
+    "EBS 중학 생활일본어 (おはよう / いってきます / はじめまして / おめでとう / なににする？ / じょうずですね)",
+    "EBS 오디오어학당 (라디오 초급 일본어, 테마별 일본어 여행, 핵심표현 50·100)",
+    "2015 개정 교육과정 중학교 생활일본어 성취기준 (듣기·말하기·읽기·쓰기·문화)"
+  ],
+  "levels": [
+    {
+      "id": "l0",
+      "emoji": "🔤",
+      "title": "글자와 발음",
+      "subtitle": "왕초보 입문",
+      "goal": "히라가나와 가타카나를 읽고, 장음·촉음·요음을 구분하여 정확하게 발음한다.",
+      "ebs": "EBS 착!붙는 일본어 · EBS 두리안 1강 「일본어 글자와 발음」",
+      "lessons": [
+        {
+          "id": "l0-1",
+          "title": "히라가나 ①",
+          "type": "kana",
+          "content": "kana_hiragana_1",
+          "can_do": "히라가나 あ행~な행 25자를 보고 읽을 수 있다."
+        },
+        {
+          "id": "l0-2",
+          "title": "히라가나 ②",
+          "type": "kana",
+          "content": "kana_hiragana_2",
+          "can_do": "히라가나 は행~ん과 탁음·반탁음을 보고 읽을 수 있다."
+        },
+        {
+          "id": "l0-3",
+          "title": "가타카나",
+          "type": "kana",
+          "content": "kana_katakana",
+          "can_do": "가타카나 46자를 보고 읽을 수 있다."
+        },
+        {
+          "id": "l0-4",
+          "title": "발음의 4가지 규칙",
+          "type": "scenario",
+          "scenario": "hatsuon",
+          "can_do": "장음·촉음·요음이 들어간 단어를 구분해 읽을 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "l1",
+      "emoji": "👋",
+      "title": "첫 만남",
+      "subtitle": "입문",
+      "goal": "때와 상황에 맞게 인사하고, 자신을 소개하며, 고마움과 기쁨을 표현한다.",
+      "ebs": "EBS 두리안 1~4과 · EBS 중학 생활일본어 1단원 おはよう / 3단원 はじめまして",
+      "lessons": [
+        {
+          "id": "l1-1",
+          "title": "때와 상황별 인사",
+          "type": "scenario",
+          "scenario": "aisatsu",
+          "can_do": "아침·낮·밤·헤어질 때의 인사를 구분해 말할 수 있다."
+        },
+        {
+          "id": "l1-2",
+          "title": "인사와 자기소개",
+          "type": "scenario",
+          "scenario": "greeting",
+          "can_do": "이름과 출신을 말하고 잘 부탁한다고 인사할 수 있다."
+        },
+        {
+          "id": "l1-3",
+          "title": "감사와 사과",
+          "type": "scenario",
+          "scenario": "thanks",
+          "can_do": "고마움과 미안함을 상황에 맞게 표현할 수 있다."
+        },
+        {
+          "id": "l1-4",
+          "title": "칭찬과 축하",
+          "type": "scenario",
+          "scenario": "praise",
+          "can_do": "상대를 칭찬하고 축하하는 말을 할 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "emoji": "🍜",
+      "title": "일상 대화",
+      "subtitle": "초급 전반",
+      "goal": "카페·식당에서 주문하고, 가벼운 잡담과 전화 약속을 할 수 있다.",
+      "ebs": "EBS 두리안 5~6과 · EBS 중학 생활일본어 2단원 いってきます / 5단원 なににする？",
+      "lessons": [
+        {
+          "id": "l2-1",
+          "title": "카페에서 주문",
+          "type": "scenario",
+          "scenario": "cafe",
+          "can_do": "음료를 주문하고 사이즈와 가격을 물을 수 있다."
+        },
+        {
+          "id": "l2-2",
+          "title": "식당에서",
+          "type": "scenario",
+          "scenario": "restaurant",
+          "can_do": "인원을 말하고 메뉴를 주문하고 계산할 수 있다."
+        },
+        {
+          "id": "l2-3",
+          "title": "날씨와 잡담",
+          "type": "scenario",
+          "scenario": "smalltalk",
+          "can_do": "날씨와 기분을 이야기하며 대화를 이어갈 수 있다."
+        },
+        {
+          "id": "l2-4",
+          "title": "전화와 약속",
+          "type": "scenario",
+          "scenario": "phone",
+          "can_do": "전화를 걸어 시간과 장소를 정할 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "emoji": "🛍️",
+      "title": "사고 사기",
+      "subtitle": "초급",
+      "goal": "가게에서 물건을 사고, 돈을 바꾸고, 술집에서 주문할 수 있다.",
+      "ebs": "EBS 두리안 7~8과 · EBS 중학 생활일본어 4단원 おめでとう / 6단원 じょうずですね",
+      "lessons": [
+        {
+          "id": "l3-1",
+          "title": "편의점에서",
+          "type": "scenario",
+          "scenario": "conbini",
+          "can_do": "물건을 사고 봉투·데우기·영수증을 요청할 수 있다."
+        },
+        {
+          "id": "l3-2",
+          "title": "옷 가게에서",
+          "type": "scenario",
+          "scenario": "shopping",
+          "can_do": "옷을 보여달라고 하고 입어보고 살 수 있다."
+        },
+        {
+          "id": "l3-3",
+          "title": "환전하기",
+          "type": "scenario",
+          "scenario": "exchange",
+          "can_do": "환전 장소와 환율·수수료를 물을 수 있다."
+        },
+        {
+          "id": "l3-4",
+          "title": "이자카야에서",
+          "type": "scenario",
+          "scenario": "izakaya",
+          "can_do": "술집에서 주문하고 리필을 요청할 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "l4",
+      "emoji": "🚃",
+      "title": "길과 교통",
+      "subtitle": "초중급",
+      "goal": "길을 묻고, 전철·택시를 이용하며, 여행 중 불편을 해결할 수 있다.",
+      "ebs": "EBS 오디오어학당 「테마별 일본어 여행」 · 「중급으로 가는 일본어 핵심표현 50」",
+      "lessons": [
+        {
+          "id": "l4-1",
+          "title": "길 묻기",
+          "type": "scenario",
+          "scenario": "directions",
+          "can_do": "목적지 위치와 방향, 도보 시간을 물을 수 있다."
+        },
+        {
+          "id": "l4-2",
+          "title": "전철과 지하철",
+          "type": "scenario",
+          "scenario": "train",
+          "can_do": "표를 사고 환승과 승강장을 확인할 수 있다."
+        },
+        {
+          "id": "l4-3",
+          "title": "택시 타기",
+          "type": "scenario",
+          "scenario": "taxi",
+          "can_do": "택시를 불러 목적지를 말하고 세워달라고 할 수 있다."
+        },
+        {
+          "id": "l4-4",
+          "title": "와이파이와 충전",
+          "type": "scenario",
+          "scenario": "wifi",
+          "can_do": "무료 와이파이와 콘센트를 요청할 수 있다."
+        }
+      ]
+    },
+    {
+      "id": "l5",
+      "emoji": "🏨",
+      "title": "여행과 비상",
+      "subtitle": "초중급",
+      "goal": "호텔·관광지에서 의사소통하고, 아프거나 곤란할 때 도움을 요청할 수 있다.",
+      "ebs": "EBS 오디오어학당 「라디오 초급 일본어」 · 「나의 첫 여행 일본어 step2」",
+      "lessons": [
+        {
+          "id": "l5-1",
+          "title": "호텔 체크인",
+          "type": "scenario",
+          "scenario": "hotel",
+          "can_do": "예약을 확인하고 조식·체크아웃 시간을 물을 수 있다."
+        },
+        {
+          "id": "l5-2",
+          "title": "관광지에서",
+          "type": "scenario",
+          "scenario": "sightseeing",
+          "can_do": "사진을 부탁하고 입장료와 건물을 물을 수 있다."
+        },
+        {
+          "id": "l5-3",
+          "title": "병원과 약국",
+          "type": "scenario",
+          "scenario": "hospital",
+          "can_do": "증상을 말하고 약 복용법을 물을 수 있다."
+        },
+        {
+          "id": "l5-4",
+          "title": "도움 요청하기",
+          "type": "scenario",
+          "scenario": "help",
+          "can_do": "길을 잃었을 때 천천히 다시 말해달라고 요청할 수 있다."
+        }
+      ]
+    }
+  ]
+}
