@@ -39,7 +39,8 @@ python server.py
 | **http://localhost:8000** | 🌐 **웹 학습장** — 커리큘럼 학습 · 듣기(TTS) · 녹음 · 진도 저장 |
 | **http://localhost:8000/legacy** | 💬 카톡 스타일 테스트 화면 — 봇 응답 미리보기 |
 
-> Windows에서는 `run.bat` 을 더블클릭해도 됩니다.
+> Windows에서는 **`run.bat`**(서버만) 또는 **`run_tunnel.bat`**(서버 + HTTPS 터널)을 더블클릭해도 됩니다.
+> `run_tunnel.bat`을 쓰면 폰에서 녹음·홈 화면 추가까지 바로 테스트할 수 있어요.
 
 서버를 끄려면 실행 중인 창에서 `Ctrl + C` 를 누르세요.
 

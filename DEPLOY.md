@@ -9,6 +9,14 @@ Python 표준 라이브러리만 쓰기 때문에 빌드 설정이 거의 없습
 
 준비된 파일: `render.yaml`, `requirements.txt`, `Procfile` → 저장소에 이미 포함됨.
 
+| 항목 | 링크 |
+|---|---|
+| GitHub 저장소 | https://github.com/javacoffeemoo-rgb/nihongo-step |
+| **원클릭 배포** | https://render.com/deploy?repo=https://github.com/javacoffeemoo-rgb/nihongo-step |
+
+> 원클릭 링크는 **Render 로그인 후** 파란 화면에서 `Apply`만 누르면 됩니다.
+> (GitHub 계정으로 로그인 — 소스가 공개 저장소라 별도 권한 설정 불필요)
+
 1. https://render.com 접속 → **GitHub로 로그인**
 2. **New +** → **Blueprint**
 3. 저장소 목록에서 **`nihongo-step`** 선택 → **Connect**
@@ -64,12 +72,11 @@ Python 표준 라이브러리만 쓰기 때문에 빌드 설정이 거의 없습
 ## 방법 3. 배포 없이 잠깐 확인 (터널)
 
 ```text
-python server.py        ← 먼저 실행
-tools\tunnel.bat        ← 더블클릭
+run_tunnel.bat        ← 더블클릭 (서버 + 터널 동시에)
 ```
 
 콘솔에 나오는 `https://xxxx.trycloudflare.com` 주소로 폰에서 접속.
-주소는 실행할 때마다 바뀌고, PC가 꺼지면 사라집니다. (테스트용)
+주소는 실행할 때마다 바뀌고, PC 창을 닫으면 사라집니다. (테스트용)
 
 ---
 
